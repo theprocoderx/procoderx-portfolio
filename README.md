@@ -8,6 +8,8 @@ It showcases my projects, skills, certifications, and frontend development journ
 
 ## 🔗 Important Links
 
+🌐 Portfolio Website: https://maganstackforge.vercel.app/  
+⚡ PageSpeed Report: https://pagespeed.web.dev/report?url=https://maganstackforge.vercel.app/  
 💻 GitHub Profile: https://github.com/maganstackforge  
 📂 Project Repository: https://github.com/maganstackforge/msf-portfolio  
 👤 LinkedIn: https://linkedin.com/in/maganstackforge  

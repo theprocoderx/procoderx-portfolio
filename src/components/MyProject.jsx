@@ -256,7 +256,7 @@ const MyProjects = () => {
                       height={768}
                       loading='lazy'
                       decoding='async'
-                      className='relative z-10 aspect-[16/9] w-full max-w-2xl rounded-xl'
+                      className='relative z-10 w-full max-w-2xl rounded-xl'
                     />
 
                     {/* Live Website Dynamic Tooltip / Badge */}
