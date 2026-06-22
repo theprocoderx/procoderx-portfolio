@@ -252,7 +252,7 @@ const MyProjects = () => {
                     <img
                       src={project.image}
                       alt={`${project.title} project preview`}
-                      width={1375}
+                      width={1366}
                       height={768}
                       loading='lazy'
                       decoding='async'

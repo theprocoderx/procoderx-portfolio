@@ -34,7 +34,7 @@ const HeroSection = () => {
           className='pointer-events-auto transition-transform hover:scale-105'
         >
           <img
-            src='/msf-logo-small.webp'
+            src='/msf-logo.webp'
             alt='Logo'
             loading='eager'
             decoding='sync'

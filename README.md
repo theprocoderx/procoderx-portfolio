@@ -9,11 +9,56 @@ It showcases my projects, skills, certifications, and frontend development journ
 ## 🔗 Important Links
 
 🌐 Portfolio Website: https://maganstackforge.vercel.app/  
-⚡ PageSpeed Report: https://pagespeed.web.dev/report?url=https://maganstackforge.vercel.app/  
 💻 GitHub Profile: https://github.com/maganstackforge  
 📂 Project Repository: https://github.com/maganstackforge/msf-portfolio  
 👤 LinkedIn: https://linkedin.com/in/maganstackforge  
 📧 Email: magan.stackforge@gmail.com
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Hero Section
+
+![Hero Desktop](./public/screenshots/hero-desktop.png)
+![Hero Mobile](./public/screenshots/hero-mobile.png)
+
+### 🚀 Projects Section
+
+![Projects Desktop](./public/screenshots/projects-desktop.png)
+![Projects Mobile](./public/screenshots/projects-mobile.png)
+
+### 🪟 About Modal
+
+![About Desktop](./public/screenshots/about-desktop.png)
+![About Mobile](./public/screenshots/about-mobile.png)
+
+### 🏆 Certifications
+
+![Certifications Desktop](./public/screenshots/cert-desktop.png)
+![Certifications Mobile](./public/screenshots/cert-mobile.png)
+
+### 📬 Contact Section
+
+![Contact Desktop](./public/screenshots/contact-desktop.png)
+![Contact Mobile](./public/screenshots/contact-mobile.png)
+
+---
+
+## 📊 Performance Quality Proof
+
+### Lighthouse Results
+
+- Mobile Performance: 99/100
+- Desktop Performance: 100/100
+- Accessibility: 100/100
+- Best Practices: 100/100
+- SEO: 100/100
+
+![Lighthouse Score](./public/screenshots/lighthouse-desktop.png)
+![Lighthouse Score](./public/screenshots/lighthouse-mobile.png)
+
+⚡ PageSpeed Report: https://pagespeed.web.dev/analysis/https-maganstackforge-vercel-app/qflddx25ib?form_factor=desktop
 
 ---
 
@@ -148,22 +193,6 @@ This is a **Single Page Application (SPA)** with the following sections:
 
 ---
 
-## 📊 Performance & Build Quality Proof
-
-### 🧹 Code Quality Checks (ESLint + Prettier Format)
-
-![Lint, Fix & Format Output](./public/screenshots/lint-format.png)
-
-### 👀 Production Build and Preview (Vite Preview)
-
-![Preview Screenshot](./public/screenshots/build-preview.png)
-
-### 📊 Lighthouse Audit
-
-![Lighthouse Score](./public/screenshots/lighthouse.png)
-
----
-
 ## 📁 Project Structure
 
 ```bash
@@ -213,35 +242,6 @@ npm run build
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Hero Section
-
-![Hero Desktop](./public/screenshots/hero-desktop.png)
-![Hero Mobile](./public/screenshots/hero-mobile.png)
-
-### 🚀 Projects Section
-
-![Projects Desktop](./public/screenshots/projects-desktop.png)
-![Projects Mobile](./public/screenshots/projects-mobile.png)
-
-### 🪟 About Modal
-
-![About Desktop](./public/screenshots/about-desktop.png)
-![About Mobile](./public/screenshots/about-mobile.png)
-
-### 🏆 Certifications
-
-![Certifications Desktop](./public/screenshots/cert-desktop.png)
-![Certifications Mobile](./public/screenshots/cert-mobile.png)
-
-### 📬 Contact Section
-
-![Contact Desktop](./public/screenshots/contact-desktop.png)
-![Contact Mobile](./public/screenshots/contact-mobile.png)
-
----
-
 ## 🚀 Future Improvements
 
 - Dark mode support
@@ -254,8 +254,8 @@ npm run build
 
 ## 👨‍💻 Author
 
-Magan Singh  
-Frontend Developer Intern @ Namrata Universal  
+**Magan Singh**  
+Frontend Developer Intern @ Namrata Universal (Nov 2025 – Present)  
 MCA Graduate | React.js | JavaScript | Tailwind CSS
 
 ---

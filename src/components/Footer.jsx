@@ -5,16 +5,14 @@ const Footer = () => {
     <footer className='mx-auto flex w-full max-w-7xl flex-col items-center bg-[#050816] py-2 text-[#b0b2c3]'>
       <div className='black-logo my-4'>
         <img
-          src='/msf-logo-small.webp' // Ya jo bhi aapki image ka sahi path hai
+          src='/msf-logo.webp' // Ya jo bhi aapki image ka sahi path hai
           alt='Logo'
-          // 🔥 1. Browser ko bolo isko sabse pehle prioritze kare
           loading='eager'
-          decoding='sync' // 👈 'async' se hata kar 'sync' kar do taaki layout calculation ke sath hi decode ho jaye
-          // 🔥 2. Image ka exact dimensions pehle se batao taaki layout shift na ho
+          decoding='sync'
           width='64'
           height='64'
           className='h-16 w-16 rounded-2xl bg-white object-contain p-1'
-          // 🔥 3. Browser ko bolo iska layout isolation strict rakhe
+          //  3. Browser ko bolo iska layout isolation strict rakhe
           style={{ contain: 'layout paint' }}
         />
       </div>
