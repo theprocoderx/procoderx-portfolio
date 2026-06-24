@@ -56,7 +56,7 @@ const projects = [
     repoLink: 'https://github.com/maganstackforge/namrata-univers',
 
     pageSpeedLink:
-      'https://pagespeed.web.dev/analysis/https-globescope-netlify-app/bqy8fuevvt?form_factor=desktop',
+      'https://pagespeed.web.dev/analysis/https-namrataunivers-netlify-app/ggm2w9d9gu?form_factor=desktop',
 
     color: '#34d399',
 
