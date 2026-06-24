@@ -47,7 +47,11 @@ const HeroSection = () => {
 
         {/* Right Action Trigger with Safe Fallback */}
         <div className='relative flex gap-4 text-white'>
-          <Button href='/MaganSingh_resume.pdf' download={true} aria-label='Download resume of Magan Singh'>
+          <Button
+            href='/Magan_Singh_Frontend_Developer_Resume.pdf'
+            download={true}
+            aria-label='Download resume of Magan Singh'
+          >
             Resume
           </Button>
         </div>
