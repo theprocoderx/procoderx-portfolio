@@ -48,7 +48,7 @@ const Certification = () => {
         centeredSlides={false}
         spaceBetween={30}
         aria-label='Certificates slider'
-        className='flex items-center justify-center !py-14'
+        className='flex items-center justify-center py-14!'
       >
         {certificates.map((certificate) => (
           <SwiperSlide key={certificate.id} className='px-4'>

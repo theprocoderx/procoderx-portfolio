@@ -1,16 +1,16 @@
-# Magan Singh Portfolio
+## ProCoderX Portfolio
 
-Magan Singh Portfolio is a modern, responsive, and performance-focused personal developer portfolio built using React.js, Vite, and Tailwind CSS.
+A modern, responsive, and performance-focused developer portfolio built using React.js, Vite, and Tailwind CSS.
 
-It showcases my projects, skills, certifications, and frontend development journey through a clean and interactive single-page experience.
+The portfolio showcases my projects, technical skills, certifications, and frontend development journey with a strong focus on performance, accessibility, SEO, responsive design, and clean UI/UX.
 
 ---
 
 ## 🔗 Important Links
 
-🌐 Portfolio Website: https://theprocoderx.vercel.app/  
-💻 Repository: https://github.com/theprocoderx/msf-portfolio
-👨‍💻 Portfolio: https://procoderx.com
+🌐 Live Portfolio: https://procoderx.com
+⚡ Vercel Deployment: https://theprocoderx.vercel.app
+💻 Source Code: https://github.com/theprocoderx/procoderx-portfolio
 🐙 GitHub: https://github.com/theprocoderx
 💼 LinkedIn: https://linkedin.com/in/procoderx
 📧 Email: procoderxs@gmail.com
@@ -59,7 +59,7 @@ It showcases my projects, skills, certifications, and frontend development journ
 ![Lighthouse Score](./public/screenshots/lighthouse-desktop.png)
 ![Lighthouse Score](./public/screenshots/lighthouse-mobile.png)
 
-⚡ PageSpeed Report: https://pagespeed.web.dev/analysis/https-maganstackforge-vercel-app/qflddx25ib?form_factor=desktop
+⚡ PageSpeed Report: https://pagespeed.web.dev/analysis/https-procoderx-com/spxw2ae6ju?form_factor=desktop
 
 ---
 
@@ -190,22 +190,30 @@ This is a **Single Page Application (SPA)** with the following sections:
 - Optimized re-rendering with efficient React component structure
 - Lightweight production build for better performance
 - Responsive image handling for all devices
+- Optimized font loading
 - Optimized hero image loading using preload for better LCP performance (avoiding redundant fetchPriority usage)
 
 ---
 
 ## 📁 Project Structure
 
-```bash
-MS_PORTFOLIO
+```text
+procoderx-portfolio
 │
 ├── public
-│   ├── screenshots
-│   │   ├── hero.png
-│   │   ├── projects.png
-│   │   ├── about-modal.png
-│   │   ├── certifications.png
-│   │   └── contact.png
+│   └── screenshots
+│       ├── hero-desktop.png
+│       ├── hero-mobile.png
+│       ├── projects-desktop.png
+│       ├── projects-mobile.png
+│       ├── about-desktop.png
+│       ├── about-mobile.png
+│       ├── cert-desktop.png
+│       ├── cert-mobile.png
+│       ├── contact-desktop.png
+│       ├── contact-mobile.png
+│       ├── lighthouse-desktop.png
+│       └── lighthouse-mobile.png
 │
 ├── src
 │   ├── animations
@@ -219,8 +227,8 @@ MS_PORTFOLIO
 │
 ├── index.html
 ├── package.json
-└── vite.config.js
-
+├── vite.config.js
+└── README.md
 ```
 
 ---
@@ -228,8 +236,8 @@ MS_PORTFOLIO
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/maganstackforge/msf-portfolio.git
-cd msf-portfolio
+git clone https://github.com/theprocoderx/procoderx-portfolio.git
+cd procoderx-portfolio
 npm install
 npm run dev
 ```
@@ -238,18 +246,17 @@ npm run dev
 
 ```bash
 npm run build
-
 ```
 
 ---
 
 ## 🚀 Future Improvements
 
-- Dark mode support
-- Blog section integration
-- Project filtering system
-- Multi-language support
-- Backend integration for contact form
+- Blog section
+- Project search & filtering
+- Contact form backend integration
+- CMS-powered content management
+- PWA support
 
 ---
 
@@ -257,10 +264,10 @@ npm run build
 
 **Magan Singh**  
 Frontend Developer Intern @ Namrata Universal (Nov 2025 – Present)  
-MCA Graduate | React.js | JavaScript | Tailwind CSS
+MCA Graduate | React.js | JavaScript | Tailwind CSS | Vite
 
 ---
 
 ## 📄 License
 
-This project is created for learning, portfolio demonstration, and personal branding purposes.
+This project is intended for portfolio showcase, learning purposes, and personal branding. Unauthorized copying or redistribution of the content is not permitted.

@@ -11,19 +11,13 @@ const projects = [
     subtitle: 'Furniture E-Commerce',
     description:
       'Modern furniture e-commerce application built with React, Vite, and Tailwind CSS featuring responsive design, category-based product browsing, and interactive user experiences.',
-
     image: furniloEcom,
-
     liveLink: 'https://furnilo.vercel.app/',
-
     repoLink: 'https://github.com/theprocoderx/furnilo-ecommerce',
     pageSpeedLink:
       'https://pagespeed.web.dev/analysis/https-furnilo-vercel-app/20gete6mh1?form_factor=desktop',
-
     color: '#38bdf8',
-
     position: 'left',
-
     keyHighlights: [
       'Developed a modern and fully responsive furniture e-commerce interface.',
       'Implemented category-based product browsing and scalable filtering structure.',
@@ -31,7 +25,6 @@ const projects = [
       'Enhanced user experience with Framer Motion animations and Swiper.js sliders.',
       'Added SEO support using React Helmet Async for better discoverability.',
     ],
-
     technologies: [
       'react.js',
       'vite',
@@ -45,23 +38,15 @@ const projects = [
   {
     title: 'Namrata Universal',
     subtitle: 'Corporate Website Clone',
-
     description:
       'A modern, high-performance, and fully responsive business website built with React, Vite, and Tailwind CSS featuring smooth animations, SEO optimization, and scalable component architecture.',
-
     image: namrataUniversal,
-
     liveLink: 'https://namrataunivers.netlify.app/',
-
     repoLink: 'https://github.com/theprocoderx/namrata-univers',
-
     pageSpeedLink:
       'https://pagespeed.web.dev/analysis/https-namrataunivers-netlify-app/ggm2w9d9gu?form_factor=desktop',
-
     color: '#34d399',
-
     position: 'right',
-
     keyHighlights: [
       'Achieved Lighthouse scores of 98 Performance, 100 Accessibility, 100 Best Practices, and 100 SEO.',
       'Built a fully responsive mobile-first interface optimized for mobile, tablet, and desktop devices.',
@@ -69,7 +54,6 @@ const projects = [
       'Added SEO optimization with React Helmet Async and semantic HTML structure.',
       'Developed a scalable and reusable React component architecture for maintainable frontend development.',
     ],
-
     technologies: [
       'react.js',
       'vite',
@@ -84,23 +68,15 @@ const projects = [
   {
     title: 'GlobeScope',
     subtitle: 'REST Countries Explorer',
-
     description:
       'A modern REST Countries Explorer built with React, Vite, and Tailwind CSS featuring real-time search, region filtering, dynamic routing, performance optimization, automated testing, and SEO best practices.',
-
     image: globeScope,
-
     liveLink: 'https://globescope.netlify.app/',
-
     repoLink: 'https://github.com/theprocoderx/GlobeScope',
-
     pageSpeedLink:
       'https://pagespeed.web.dev/analysis/https-globescope-netlify-app/bqy8fuevvt?form_factor=desktop',
-
     color: '#22d3ee',
-
     position: 'left',
-
     keyHighlights: [
       'Achieved Lighthouse scores of 99 Performance, 100 Accessibility, and 100 SEO.',
       'Implemented real-time country search with region-based filtering and dynamic routing.',
@@ -108,7 +84,6 @@ const projects = [
       'Built scalable state management with Context API and reusable custom hooks.',
       'Added automated unit testing using Vitest and Testing Library.',
     ],
-
     technologies: [
       'react.js',
       'vite',
@@ -123,23 +98,15 @@ const projects = [
   {
     title: 'MS Trackify',
     subtitle: 'Expense Tracker App',
-
     description:
       'A responsive expense tracking application built with React and Vite that enables users to add, manage, filter, sort, and persist expenses using LocalStorage, custom hooks, and an intuitive user interface.',
-
     image: msTrackify,
-
     liveLink: 'https://mstrackify.netlify.app/',
-
     repoLink: 'https://github.com/theprocoderx/TrackifyApp',
-
     pageSpeedLink:
       'https://pagespeed.web.dev/analysis/https-mstrackify-netlify-app-home/k0skw154uk?form_factor=desktop',
-
     color: '#4ade80',
-
     position: 'right',
-
     keyHighlights: [
       'Achieved Lighthouse scores of 98 Performance, 95 Accessibility, 100 Best Practices, and 91 SEO.',
       'Implemented expense management with add, edit, delete, filtering, and advanced sorting capabilities.',
@@ -147,29 +114,20 @@ const projects = [
       'Built reusable custom hooks for filtering and LocalStorage state management.',
       'Designed a fully responsive interface with context-menu based expense actions.',
     ],
-
     technologies: ['react.js', 'vite', 'javascript', 'tailwind css', 'localstorage', 'custom hooks'],
   },
   {
     title: 'QuizForge',
     subtitle: 'Interactive Quiz Application',
-
     description:
       'A fully responsive quiz application built with HTML, CSS, and JavaScript featuring multiple-choice questions, countdown timer, sound effects, animated score visualization, and social score sharing functionality.',
-
     image: quizForge,
-
     liveLink: 'https://msquizforge.vercel.app/',
-
     repoLink: 'https://github.com/theprocoderx/msquizforge',
-
     pageSpeedLink:
       'https://pagespeed.web.dev/analysis/https-msquizforge-vercel-app/ninyh05fwa?form_factor=mobile',
-
     color: '#60a5fa',
-
     position: 'left',
-
     keyHighlights: [
       'Achieved Lighthouse scores of 85 Performance, 96 Accessibility, 100 Best Practices, and 91 SEO.',
       'Built an interactive quiz system with 25+ multiple-choice questions and real-time score tracking.',
@@ -177,7 +135,6 @@ const projects = [
       'Created an animated circular score visualization with quiz retry and restart functionality.',
       'Added social sharing support for LinkedIn, Telegram, and Twitter with a fully responsive design.',
     ],
-
     technologies: ['html5', 'css3', 'javascript', 'responsive design', 'git', 'github', 'vercel'],
   },
 ];
@@ -221,28 +178,27 @@ const MyProjects = () => {
                 isRight ? 'sm:flex-row-reverse' : ''
               }`}
             >
-              {/* Left right representation arrow */}
+              {/* Timeline Horizontal Connector (Desktop Only) */}
               <div
                 className={`absolute top-1/2 hidden h-[1px] bg-[#1788ae] sm:block ${
                   isRight ? 'right-1/4 left-1/2' : 'right-1/2 left-1/4'
                 }`}
               ></div>
 
-              {/* circle dot */}
+              {/* Timeline Center Indicator Dot (Desktop Only) */}
               <div
                 className='absolute left-1/2 z-10 hidden h-4 w-4 -translate-x-1/2 rounded-full border-[3px] bg-[#111] sm:block'
                 style={{ borderColor: project.color }}
               ></div>
 
-              {/*With Image live link, repo link, and page speed insight link container   */}
-
+              {/* Project Media & Action Links Container */}
               <div className='relative flex w-full flex-col items-center justify-center self-center sm:w-1/2'>
                 <div
                   className={`relative mt-20 flex w-full flex-col items-center md:mt-0 ${
                     isRight ? 'sm:ml-auto' : 'sm:mr-auto'
                   }`}
                 >
-                  {/* With image live demo link */}
+                  {/* Live Project Preview Link */}
                   <a
                     href={project.liveLink}
                     target='_blank'
@@ -259,7 +215,7 @@ const MyProjects = () => {
                       className='relative z-10 w-full max-w-2xl rounded-xl'
                     />
 
-                    {/* Live Website Dynamic Tooltip / Badge */}
+                    {/* Dynamic Tooltip / Badge */}
                     <span
                       className='ease-jump absolute -top-12 left-1/2 z-20 mt-2 flex w-max -translate-x-1/2 items-center gap-1 rounded px-2 py-1 text-sm font-semibold duration-200 after:absolute after:-bottom-2 after:left-1/2 after:h-4 after:w-4 after:-translate-x-1/2 after:rotate-45 after:bg-inherit md:top-5 md:text-base md:group-hover:-top-12'
                       style={{
@@ -271,16 +227,17 @@ const MyProjects = () => {
                       <ExternalIcon />
                     </span>
                   </a>
-                  {/* buttons below the image repo link and page speed insight */}
+
+                  {/* Secondary Actions (Repository & Performance Metrics) */}
                   <div className='mt-2 flex w-full flex-wrap items-center justify-center gap-3 md:absolute md:-bottom-12 md:left-1/2 md:-translate-x-1/2'>
                     {project.repoLink && (
-                      <Button href={project.repoLink} ariaLabel='Visit my project performance'>
+                      <Button href={project.repoLink} ariaLabel='View repository source code'>
                         Source Code
                       </Button>
                     )}
 
                     {project.pageSpeedLink && (
-                      <Button href={project.pageSpeedLink} ariaLabel='Visit my project performance'>
+                      <Button href={project.pageSpeedLink} ariaLabel='View PageSpeed performance report'>
                         PageSpeed Report
                       </Button>
                     )}
@@ -288,6 +245,7 @@ const MyProjects = () => {
                 </div>
               </div>
 
+              {/* Project Content & Details Container */}
               <div className='flex w-full flex-col gap-2 sm:w-1/2'>
                 <h4 className='text-2xl font-bold tracking-wide md:text-4xl' style={{ color: project.color }}>
                   {project.title}
@@ -303,21 +261,22 @@ const MyProjects = () => {
                 <p className='mt-3 text-left text-sm leading-relaxed text-[#ddd] opacity-90 md:text-base'>
                   {project.description}
                 </p>
-                {/* Key Highlights */}
+
+                {/* Key Highlights Section */}
                 <h3 className='py-2 text-xl font-bold text-cyan-400'>Key Highlights</h3>
 
-                {/* Grid layout use karne se content auto 2-columns me badal jayega (desktop par) */}
-                <div className='grid-cols grid gap-x-6 gap-y-2.5 pr-2 text-sm text-[#ddd] md:grid-cols-2'>
+                {/* Responsive Grid: Automatically switches to 2 columns on desktop layout */}
+                <div className='grid grid-cols-1 gap-x-6 gap-y-2.5 pr-2 text-sm text-[#ddd] md:grid-cols-2'>
                   {project.keyHighlights.map((highlight, index) => (
                     <div key={index} className='flex items-start gap-2'>
-                      {/* Custom Clean Bullet Point */}
+                      {/* Custom Decorative Bullet Point */}
                       <span className='text-base leading-none font-bold text-cyan-400'>•</span>
                       <span className='leading-relaxed'>{highlight}</span>
                     </div>
                   ))}
                 </div>
 
-                {/* TECH STACK */}
+                {/* Technology Stack Tags */}
                 <h3 className='py-2 text-xl font-bold text-white/90'>Tech Stack</h3>
                 <ul className='flex flex-wrap gap-2 text-[#ddd]'>
                   {project.technologies.map((tech) => (
@@ -334,6 +293,7 @@ const MyProjects = () => {
           );
         })}
 
+        {/* Vertical Timeline Backbone Center Line (Desktop Only) */}
         <div className='absolute top-0 bottom-0 left-1/2 hidden w-0.5 -translate-x-1/2 bg-[#1788ae] sm:block'></div>
       </section>
     </>
