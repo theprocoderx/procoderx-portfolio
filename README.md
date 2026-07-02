@@ -195,6 +195,21 @@ This is a **Single Page Application (SPA)** with the following sections:
 
 ---
 
+## 🔍 SEO Features
+
+- Custom domain with HTTPS
+- XML Sitemap (`sitemap.xml`)
+- robots.txt configuration
+- Canonical URLs
+- Structured Data (JSON-LD)
+- Open Graph & Twitter Card meta tags
+- Google Search Console integration
+- Sitemap submitted for search engine indexing
+- SEO-friendly metadata
+- Optimized for search engine discoverability
+
+---
+
 ## 📁 Project Structure
 
 ```text
